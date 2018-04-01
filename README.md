@@ -303,3 +303,5 @@ asmlinkage __visible void __init start_kernel(void)
 /* Call all constructor functions linked into the kernel. */
 ```
 
+然后内核的初始化就完成了，于是转入用户空间的初始化。
+
